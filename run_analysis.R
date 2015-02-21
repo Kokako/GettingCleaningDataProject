@@ -1,16 +1,16 @@
 run_analysis <- function(){
 
 ## Define file names
-testFile <- "test/X_test.txt"
-testSubjectFile <- "test/subject_test.txt"
-testActivityFile <- "test/y_test.txt"
+testFile <- "UCI HAR Dataset/test/X_test.txt"
+testSubjectFile <- "UCI HAR Dataset/test/subject_test.txt"
+testActivityFile <- "UCI HAR Dataset/test/y_test.txt"
 
-trainFile <- "train/X_train.txt"
-trainSubjectFile <- "train/subject_train.txt"
-trainActivityFile <- "train/y_train.txt"
+trainFile <- "UCI HAR Dataset/train/X_train.txt"
+trainSubjectFile <- "UCI HAR Dataset/train/subject_train.txt"
+trainActivityFile <- "UCI HAR Dataset/train/y_train.txt"
 
-featureFile <- "features.txt"
-activityFile <- "activity_labels.txt"
+featureFile <- "UCI HAR Dataset/features.txt"
+activityFile <- "UCI HAR Dataset/activity_labels.txt"
 
 ## Read in data
 testData <- read.table(testFile, sep = "")

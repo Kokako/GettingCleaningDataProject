@@ -11,9 +11,9 @@ This repository contains run_analysis.R, a script that contains the function run
 
 A full description of the variables can be found in CodeBook.md.
 
-To run properly, the script must be located in the "UCI HAR Dataset" folder, which must also contain:
+To run properly, the script needs the the working directory to contain a "UCI HAR Dataset" folder, with:
 
-* 'test' and 'training' folders, containing ([t] = 'test' or 'train'):
+* 'test' and 'training' subfolders, containing ([t] = 'test' or 'train'):
 	* subject_[t].txt: Identifies the subject that performed the activity.
 	* X_[t].txt: Values of the measurements taken during the duration of the activity.
 	* y_[t].txt: Identifies the activity that the subject performed.
