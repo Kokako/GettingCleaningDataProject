@@ -72,6 +72,6 @@ Below is a list of the variables in each column of the data set created by run_a
 67.	fBodyBodyGyroJerkMag-mean()
 68.	fBodyBodyGyroJerkMag-std()
 
-##About the data:
+###About the data:
 
-The data is from the Human Activity Recognition Using Smartphones Data Set ([link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)), with the abstract *Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors*.
+The data is from the Human Activity Recognition Using Smartphones Data Set ([link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)), with the description *database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors*.
